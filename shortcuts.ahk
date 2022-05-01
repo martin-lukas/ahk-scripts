@@ -18,33 +18,36 @@ return
 ; For proper functionality, disable Win+L hotkey, by adding DisableLockWorkstation = 1 DWORD to
 ; HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System
 
-#m::
+#+m::
 Send, 0
 return
-#j::
+#+j::
 Send, 1
 return
-#k::
+#+k::
 Send, 2
 return
-#l::
+#+l::
 Send, 3
 return
-#u::
+#+u::
 Send, 4
 return
-#i::
+#+i::
 Send, 5
 return
-#o::
+#+o::
 Send, 6
 return
-#7::
+#+7::
+#+&::
 Send, 7
 return
-#8::
+#+8::
+#+*::
 Send, 8
 return
-#9::
+#+9::
+#+(::
 Send, 9
 return
