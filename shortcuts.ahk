@@ -1,9 +1,17 @@
 ::mlpm::
-Send, xxxxxx@pm.me
+Send, xxxxxx@xxx.xxx
 return
 
 ::mlgm::
-Send, xxxxxx@gmail.com
+Send, xxxxxx@xxx.xxx
+return
+
+::fioc::
+Send, XXXXXXXXXXXXXXXX
+return
+
+::telm::
+Send, XXXXXXXXX
 return
 
 ::adru::
